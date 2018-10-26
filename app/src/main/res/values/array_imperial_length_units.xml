@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_miles">
+        <item>thou</item>
+        <item>inch</item>
+        <item>foot</item>
+        <item>yard</item>
+        <item>chain</item>
+        <item>furlong</item>
+        <item>mile</item>
+        <item>league</item>
+        <item>fathom</item>
+        <item>cable</item>
+        <item>nautical mile</item>
+        <item>link</item>
+        <item>rod</item>
+    </string-array>
+</resources>

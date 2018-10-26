@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_meters">
+        <item>nm</item>
+        <item>Mm</item>
+        <item>mm</item>
+        <item>cm</item>
+        <item>dm</item>
+        <item>m</item>
+        <item>dam</item>
+        <item>hm</item>
+        <item>km</item>
+    </string-array>
+</resources>

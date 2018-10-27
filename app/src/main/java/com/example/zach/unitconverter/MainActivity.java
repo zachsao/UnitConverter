@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Button length_btn = findViewById(R.id.length_button);
         Button weight_btn = findViewById(R.id.weight_button);
         Button speed_btn  = findViewById(R.id.speed_button);
+        Button temperature_btn = findViewById(R.id.button_temperature);
 
         length_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SpeedActivity.class));
+            }
+        });
+
+        temperature_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TemperatureActivity.class));
+
             }
         });
     }
